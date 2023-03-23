@@ -1,0 +1,260 @@
+
+
+body {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*!*height: 100vh;*!*/
+    background-image: url('https://s1.1zoom.ru/b5050/28/434299-Kycb_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.background-opacity {
+    background-color: rgba(255, 255, 255, 0.5); /* задаємо прозорість */
+}
+
+/*Показуємо дату з права вікна */
+/*#date {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    background-color: azure;*/
+/*    padding: 10px;*/
+/*    border: 1px solid bisque;*/
+/*    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);*/
+/*}*/
+#date {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    /*background-color: azure;*/
+    padding: 5px;
+    /*border: 1px solid bisque;*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+
+
+
+
+
+/* Обнуляем отступы и отступы внутри списка */
+ul {
+    margin: 30px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+/* Убираем подчеркивание у ссылок */
+a {
+    text-decoration: none;
+}
+
+/* Стили для заголовков */
+h1 {
+
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0 0.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+}
+
+/*img {*/
+/*    !*position: absolute;*!*/
+/*    !*right: 200px;*!*/
+/*    !*left: 700px;*!*/
+/*    display: inline-block*/
+/*    max-width: 80%;*/
+/*    max-height: 400px;*/
+/*    margin: 0 auto;*/
+/*    border: 1px solid black;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);*/
+/*}*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        max-width: 30%;
+        position: absolute;
+        right: 200px;
+        left: 700px;
+    }
+}
+
+/* Стили для изображения */
+/*img {*/
+/*    display: block;*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/* Стили для списка */
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Стили для социальных ссылок */
+.social-links a.facebook {
+    background-image: url('https://bzk.in.ua/wp-content/uploads/2018/10/Facebook.png');
+    background-size: cover;
+}
+
+.social-links a.telegram {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/800px-Telegram_2019_Logo.svg.png');
+    background-size: cover;
+}
+
+.social-links a.instagram {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png');
+    background-size: cover;
+}
+
+
+
+
+.social-block {
+    margin-top: 20px;
+}
+
+.social-block h2 {
+    font-size: 1.5rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #666;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.social-links a:hover {
+    background-color: #0088cc; /* Telegram blue */
+}
+
+.social-links a:hover {
+    background-color: #c13584; /* Instagram pink */
+}
+
+
+/*.social-block {*/
+/*    background-color: #fff;*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.social-block h2 {*/
+
+/*    position: absolute;*/
+/*    right: 1010px;*/
+/*    font-size: 18px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.social-links {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.social-links li {*/
+/*    list-style: none;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.social-links a {*/
+/*    display: inline-block;*/
+/*    color: #333;*/
+/*    background-color: #f1c40f;*/
+/*    text-align: center;*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    line-height: 40px;*/
+/*    border-radius: 50%;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.social-links a:hover {*/
+/*    background-color: #333;*/
+/*    color: #f1c40f;*/
+/*}*/
+
+
+/* Стили для контактной информации */
+ul.contact-info {
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+ul.contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+/* Стили для блока с опытом работы */
+.work-experience {
+    margin-top: 2rem;
+}
+
+.work-experience p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.work-experience ul {
+    margin-left: 1.5rem;
+}
+
+.work-experience ul li {
+    margin-bottom: 0.5rem;
+}
